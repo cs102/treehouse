@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>get element by id</title>
+	<script>
+	function changeColor(newColor) {
+		var element = document.getElementById("para1");
+		element.style.color = newColor;
+	}
+
+	</script>
+</head>
+<body>
+	<p id = "para1"> Some text</p>
+	<button onclick="changeColor('blue');">blue</button>
+	<button onclick="changeColor('red');">red</button>
+
+</body>
+</html>

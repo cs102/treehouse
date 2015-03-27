@@ -1,0 +1,54 @@
+// CSS rule : selector { property : value}
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax
+https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors
+https://developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors
+https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors
+https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors
+https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
+https://developer.mozilla.org/en-US/docs/tag/CSS%20Data%20Type
+http://www.cssfontstack.com/
+https://developer.mozilla.org/en-US/docs/Web/CSS/font
+
+selector : targets html element
+declarion as { property : value}
+
+* : universal selector
+
+* {
+	margin: 0;
+	padding: 0;
+	color: red;
+}
+
+
+type selector, element selector are the same
+
+p {
+	color: white;
+	background-color:  lightblue;
+}
+
+body {
+	color: #878787;
+	margin: 0;
+}
+
+header {
+	background-color: orange;
+}
+
+h1 {
+	font-size: 90px;
+	color: white;
+}
+
+h2 {
+	font-size: 53px;
+}
+
+h3 {
+	font-size: 20px;
+	color: #48425c;
+}
+

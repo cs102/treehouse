@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+
+<ul id="navigation">
+  <li>
+    <a href="#home">Home</a>
+  </li>
+  <li>
+    <a href="#about">About</a>
+  </li>
+  <li>    
+    <a href="#contact">Contact</a>
+  </li>
+</ul>
+
+<p>A few of my favourite things:</p>
+<ul>
+  <li>
+    Rain drops on roses
+  </li>
+  <li>
+    Whiskers on kittens
+  </li>
+  <li>
+    Brown paper packages wrapped up with string
+  </li>
+</ul>
+
+<script>
+//Select the naviagation
+var navigation = document.getElementById("navigation");
+
+//Select all listItems from the navigation
+var listItems = navigation.children;
+
+//When a navigation link is pressed
+var linkListener = function() {
+  console.log("Listener is clicked!");
+}
+
+var bindEventsToLinks = function(listItem) {
+  //Select the anchor
+  var anchor = listItem.querySelector("a");
+  //Bind the linkListener to the anchor element (a) 
+  anchor.onclick = linkListener;
+}
+
+for(var i = 0; i < listItems.length ; i++) {
+    bindEventsToLinks(listItems[i]);
+}
+
+</script>
+</body>
+</html>

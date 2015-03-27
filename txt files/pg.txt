@@ -1,0 +1,4 @@
+how to install pg gem in ubuntu
+  sudo apt-get install libpq-dev
+  gem install pg
+

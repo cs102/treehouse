@@ -1,0 +1,14 @@
+== README
+
+This repo is for all treehouse classes I taken until today.  
+
+it includes sample code for.
+
+* HTML
+* CSS
+* JavaScript
+* SWIFT
+
+* and many others
+
+Feel free to use any of this resources.
