@@ -54,6 +54,12 @@ h2 {
 	font-weight: normal;
 }
 
+h4 {
+	font-size: 1.10em;
+	margin: -5px 0 0;
+	font-weight: normal;
+}
+
 /**************************
   NAVEGATION
 ***************************/
@@ -79,6 +85,10 @@ nav a {
 	padding: 15px 10px;
 }
 
+.clear {
+	clear: both;
+}
+
 /**************************
   FOOTER
 ***************************/
@@ -100,6 +110,10 @@ footer {
   PAGE: PORTFOLIO
 ***************************/
 
+li .logo-bg {
+	background-color: deepskyblue;
+}
+
 #gallery {
 	margin: 0;
 	padding: 0;
@@ -117,7 +131,7 @@ footer {
 #gallery li a p {
 	margin: 0;
 	padding: 5%;
-	font-size: 0.75em;
+	font-size: 1.05em;
 	color: #bdc3c7;
 }
 
